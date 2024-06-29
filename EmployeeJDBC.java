@@ -7,7 +7,7 @@ public class EmployeeJDBC {
 	{
         String url="jdbc:mysql://localhost:3306/assignment";
         String uname="root";
-        String pwd="ram123";
+        String pwd="";
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 		} catch (ClassNotFoundException e) {
